@@ -1,5 +1,11 @@
-# .gitignore
-node_modules
-build
-.env
+# Node modules
+node_modules/
+
+# Build and cache folders
+.cache/
+dist/
+build/
+
+# System files
 .DS_Store
+.env
