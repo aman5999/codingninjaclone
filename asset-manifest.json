@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/codingninjaclone/static/css/main.61d1ded4.css",
-    "main.js": "/codingninjaclone/static/js/main.6426f3d6.js",
+    "main.css": "/codingninjaclone/static/css/main.f5c454a8.css",
+    "main.js": "/codingninjaclone/static/js/main.9fda1194.js",
     "static/media/img7.jpg": "/codingninjaclone/static/media/img7.d842a076139b1b69c86b.jpg",
     "static/media/img2.png": "/codingninjaclone/static/media/img2.9f85efeedf360e2195e8.png",
     "static/media/cp.jpg": "/codingninjaclone/static/media/cp.d0bef8c01ec9a0f3d2b9.jpg",
     "index.html": "/codingninjaclone/index.html",
-    "main.61d1ded4.css.map": "/codingninjaclone/static/css/main.61d1ded4.css.map",
-    "main.6426f3d6.js.map": "/codingninjaclone/static/js/main.6426f3d6.js.map"
+    "main.f5c454a8.css.map": "/codingninjaclone/static/css/main.f5c454a8.css.map",
+    "main.9fda1194.js.map": "/codingninjaclone/static/js/main.9fda1194.js.map"
   },
   "entrypoints": [
-    "static/css/main.61d1ded4.css",
-    "static/js/main.6426f3d6.js"
+    "static/css/main.f5c454a8.css",
+    "static/js/main.9fda1194.js"
   ]
 }
