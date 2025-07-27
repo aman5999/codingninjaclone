@@ -30,6 +30,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
+  <Route path="/codingninjaclone" element={<Home />} />
       </Routes>
 
       {/* Bottom Footer */}
