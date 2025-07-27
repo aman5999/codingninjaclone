@@ -13,13 +13,13 @@ import Contact from './pages/Contact';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import ForgotPassword from './pages/ForgotPassword';
-
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <>
       {/* Top Navigation Bar */}
       <Navbar />
-
+ <ScrollToTop />
       {/* Define Routes Here */}
       <Routes>
         <Route path="/" element={<Home />} />
