@@ -1,9 +1,9 @@
-// No need to import BrowserRouter here
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import Footer from './components/footer';
+import ScrollToTop from './components/ScrollToTop';
 
 import Home from './pages/Home';
 import Courses from './pages/Courses';
@@ -13,14 +13,17 @@ import Contact from './pages/Contact';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import ForgotPassword from './pages/ForgotPassword';
-import ScrollToTop from "./components/ScrollToTop";
+
 function App() {
   return (
     <>
-      {/* Top Navigation Bar */}
+      {/* Scroll to top on route change */}
+      <ScrollToTop />
+
+      {/* Navigation Bar */}
       <Navbar />
- <ScrollToTop />
-      {/* Define Routes Here */}
+
+      {/* Page Routes */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />
@@ -30,10 +33,10 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
-  <Route path="/codingninjaclone" element={<Home />} />
+        <Route path="/codingninjaclone" element={<Home />} />
       </Routes>
 
-      {/* Bottom Footer */}
+      {/* Footer */}
       <Footer />
     </>
   );
